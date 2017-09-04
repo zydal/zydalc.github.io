@@ -1,0 +1,151 @@
+/* a lot of buttons here, thx to design :( */
+
+.buttons {
+    justify-content: space-around;
+}
+
+.button {
+
+    height: 40px;
+
+    border: 1px solid white;
+
+    font-weight: 400;
+
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 40px;
+
+    cursor: pointer;
+}
+
+.standard {
+    line-height: 40px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: white;
+    color: #a87fbb;
+}
+
+.button .small {
+    font-size: 8px;
+}
+
+.button.big {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto !important;
+}
+
+.social {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 50px !important;
+}
+
+.social .button {
+
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+
+    /*background-color: red;*/
+
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+.social .button:hover img {
+    filter: invert(.8);
+}
+
+.social img {
+
+    transform: scale(0.7, 0.7);
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.widget {
+    max-width: 220px;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    /*padding: 20px;*/
+
+
+    border: 1px solid white;
+    border-radius: 70px;
+
+    margin: 20px auto;
+    /*margin: 0;*/
+
+    text-align: center;
+}
+
+.circle img {
+    transform: scale(0.7, 0.7);
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.circle:hover {
+    background-color: #7a87c9;
+    /*color: gray;*/
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.circle:hover img {
+    filter: brightness(3);
+}
+
+.gray .circle {
+    border: 1px solid #7a87c9;
+}
+
+.gray .button {
+    border: 1px solid #7a87c9;
+    margin: 0 auto;
+    color: #7a87c9;
+}
+
+.gray .button {
+    border: 1px solid #7a87c9;
+    margin-right: 0;
+    color: #7a87c9;
+}
+
+.gray .button:hover {
+    /*border: 1px solid #7a87c9;*/
+    background-color: #7a87c9;
+    color: white;
+}
+
+.white .circle {
+    border: 1px solid #7a87c9;
+}
+
+.store img {
+    width: 200px;
+    cursor: pointer;
+}

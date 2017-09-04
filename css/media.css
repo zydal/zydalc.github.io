@@ -1,0 +1,153 @@
+.nothide {
+    /*display: none;*/
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (min-width: 1600px) {
+    .angle {
+        /*height: 100px;*/
+        transform: rotate(-2deg) scale(2, 4);
+    }
+
+    .angleb {
+        /*height: 100px;*/
+        transform: rotate(-2deg) scale(2, 3);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .shaft {
+        width: 90%;
+    }
+
+    .short {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mobile .short {
+        width: 90%;
+    }
+
+    .row:first-child {
+        padding-top: 0;
+    }
+
+    .title {
+        font-size: 34px;
+    }
+
+    .show {
+        display: flex !important;
+        justify-content: space-around !important;
+        /*margin: 0 auto;*/
+        width: 100%;
+        max-width: 300px;
+        padding-top: 0 !important;
+
+    }
+
+    img#phone {
+        content: url("../images/big2.png");
+        width: 80%;
+        height: auto;
+        padding: 50px 0;
+        /*height: 550px;*/
+        /*padding-left: 60px;*/
+        /*background-color: red;*/
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .nothide {
+        display: none;
+    }
+
+    .mobile {
+        width: 100%;
+        /*max-width: 400px;*/
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .mobile.reverse {
+        flex-direction: column-reverse;
+    }
+
+    .mobile .menu {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .menu .social {
+        display: none;
+    }
+
+    .circle {
+        margin: 0 auto 20px !important;
+    }
+
+    .mobile div {
+        margin: 0 auto;
+    }
+
+    .mobile .widget {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mobile div.link-wrapper {
+        margin-top: 30px;
+    }
+
+    .gray {
+        /*padding-bottom: 50px;*/
+    }
+
+    .vex.vex-theme-flat-attack {
+        font-size: 1em !important;
+    }
+
+    .angle {
+        height: 30px;
+    }
+
+    .angleb {
+        height: 35px;
+        /*padding-bottom: 20px;*/
+    }
+
+    .text {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .gray .button {
+        max-width: 50%;
+        margin: 20px auto;
+    }
+
+    .button.big {
+        padding: 10px 15px 10px 15px;
+    }
+
+    .right-footer {
+        width: 70%;
+        text-align: center;
+    }
+
+    .right-footer-wrapper {
+        margin-left: 0;
+    }
+
+    .name {
+        float: none;
+    }
+}

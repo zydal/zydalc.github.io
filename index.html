@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>Guarda Wallet</title>
+
+    <link rel="icon"
+          type="image/png"
+          href="images/favicon.png?v1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900,600,400,300,100" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <script src="vendor/js/vex.combined.js"></script>
+    <script src="vendor/js/jquery-3.2.1.min.js"></script>
+    <script>
+        vex.defaultOptions.className = 'vex-theme-flat-attack';
+        vex.dialog.defaultOptions.showCloseButton = true;
+    </script>
+    <link rel="stylesheet" href="vendor/css/vex.css"/>
+    <link rel="stylesheet" href="vendor/css/vex-theme-flat-attack.css"/>
+
+    <script src="js/index.js"></script>
+
+</head>
+
+<body>
+
+<div class="block top">
+
+    <div class="shaft">
+
+        <div class="row short top">
+
+            <div class="title">
+
+                <div class="name">Guarda</div>
+                <div class="wallet">Wallet</div>
+
+            </div>
+
+            <div onclick="openAboutModal()" class="button standard">About</div>
+
+        </div>
+
+        <div class="row mobile reverse">
+
+            <div class="row social bottom show" style="padding-top: 80px;">
+                <div class="button">
+                    <img src="images/twitter.png">
+                </div>
+                <div class="button">
+                    <img src="images/reddit.png">
+                </div>
+                <div class="button">
+                    <img src="images/bitcoin.png">
+                </div>
+            </div>
+
+
+            <div>
+                <img src="images/small.png" id="phone">
+            </div>
+
+            <div class="menu">
+
+                <div class="title"><b>Secure wallet</b> for blockchain assets</div>
+
+                <div class="row buttons">
+                    <div class="button big">
+
+                        <div class="small" style="float: left">GET IT ON</div>
+                        <div>Google Play</div>
+
+                    </div>
+                    <div class="button big">
+
+                        <div class="small" style="float: left">Download on the</div>
+                        <div>App Store</div>
+
+                    </div>
+                </div>
+
+                <div class="row buttons social top" style="justify-content: space-around; padding-top: 80px;">
+                    <div class="button">
+                        <img src="images/twitter.png">
+                    </div>
+                    <div class="button">
+                        <img src="images/reddit.png">
+                    </div>
+                    <div class="button">
+                        <img src="images/bitcoin.png">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="angle">
+    </div>
+
+</div>
+
+<div class="block white">
+
+    <div class="shaft short bottom">
+
+        <div class="">
+            <div class="title">The keys are yours</div>
+            <div class="line"></div>
+        </div>
+
+        <div class="row bottom mobile">
+            <div class="widget">
+                <div class="circle">
+                    <img src="images/lock.png">
+                </div>
+                Your funds cannot be used by anyone
+            </div>
+            <div class="widget">
+                <div class="circle">
+                    <img src="images/shield1.png">
+                </div>
+                Even we don’t have access to your keys
+            </div>
+            <div class="widget">
+                <div class="circle">
+                    <img src="images/hat.png">
+                </div>
+                Most loved solution by crypto-professionals
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="block gray">
+
+    <div class="shaft short top">
+
+        <div class="row top mobile reverse">
+
+            <div class="column" style="text-align: right;">
+
+                <div class="widget">
+                    <div class="circle" style="margin-right: 0">
+                        <img src="images/shield2.png">
+                    </div>
+                    <div class="prop">Secure</div>
+                    <div>You have 100% control over your funds</div>
+                </div>
+
+                <div class="button standard">
+                    learn more
+                </div>
+
+                <div class="widget hide">
+                    <div class="circle" style="margin-left: 0">
+                        <img src="images/lightning.png">
+                    </div>
+                    <div class="prop">Fast</div>
+                    <div>Transaction appears in blockchain in less then a second</div>
+                </div>
+
+            </div>
+
+            <div class="nothide">
+                <img src="images/big.png" class="phone2">
+            </div>
+
+            <div class="column" style="text-align: left">
+                <div class="widget">
+                    <div class="circle" style="margin-left: 0">
+                        <img src="images/gear.png">
+                    </div>
+                    <div class="prop">Customer oriented</div>
+                    <div>Clean design to provide best customer experience</div>
+                </div>
+
+                <div class="widget nothide">
+                    <div class="circle" style="margin-left: 0">
+                        <img src="images/lightning.png">
+                    </div>
+                    <div class="prop">Fast</div>
+                    <div>Transaction appears in blockchain in less then a second</div>
+                </div>
+            </div>
+
+            <div class="hide">
+                <img src="images/big.png" class="phone2">
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="block">
+
+    <div class="angleb">
+    </div>
+
+    <div class="shaft short bottom top">
+
+        <div class="bottom">
+
+            <div class="title top bottom">Build-in Exchange</div>
+            <div class="text">Never use exchanges. Don’t trust Mt.Gox again</div>
+            <div class="row top bottom mobile">
+
+                <div class="widget">
+                    <div class="circle">1</div>
+                    Select a currency to deposit
+                </div>
+
+                <div class="widget">
+                    <div class="circle">2</div>
+                    Send coins you’ve got
+                </div>
+
+                <div class="widget">
+                    <div class="circle">3</div>
+                    Receive coins in your wallet
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="angle">
+    </div>
+
+</div>
+
+<div class="block white">
+    <div class="shaft">
+        <div class="bottom">
+            <div class="column">
+                <div class="title">Get App</div>
+                <div class="line"></div>
+                <div class="text bottom">Choose your native platform and get started</div>
+
+                <!--<div class="store">Google Play</div>-->
+                <!--<div class="store">App Store</div>-->
+                <div class="store">
+                    <div>
+                        <img src="images/googleplay.png">
+                    </div>
+                    <div>
+                        <img src="images/applestore.png" style="width: 180px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block gray">
+
+    <div class="shaft">
+        <div class="top">
+            <div style="font-size: 20px">
+                <div>No one can block<br/>
+                    <b style="color: #7986CB">your funds</b></div>
+                <div class="line"></div>
+                Bank on <b style="color: #5c6bc0">yourself</b>!
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="block">
+
+    <div class="angleb">
+    </div>
+
+    <div class="shaft top">
+
+        <div class="row mobile top" style="justify-content: center;">
+            <div class="link-wrapper left-footer">
+                <div class="row" style="justify-content: center">
+                    <div class="title">
+
+                        <div class="name">Guarda</div>
+                        <div class="wallet">Wallet</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div class="right-footer-wrapper">
+                    <div class="link-wrapper">
+                        <a id="privacy-police" class="link" href="#privacy-police">Privacy Policy</a>
+                    </div>
+                    <div class="link-wrapper">
+                        <a id="terms-of-service" class="link" href="#terms-of-service">Terms of Services</a>
+                    </div>
+                    <div class="link-wrapper">
+                        <a onclick="openAboutModal()" class="link">About</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row social top" style="justify-content: space-around">
+            <div class="button">
+                <img src="images/rsz_facebook-512.png">
+            </div>
+            <div class="button">
+                <img src="images/twitter.png">
+            </div>
+            <div class="button">
+                <img src="images/reddit.png">
+            </div>
+            <div class="button">
+                <img src="images/bitcoin.png">
+            </div>
+            <div class="button">
+                <img src="images/rsz_github-icon.png">
+            </div>
+        </div>
+        <div class="row mobile bottom" style="justify-content: center">
+            <div style="padding-top: 4px; padding-right: 5px">
+                <div class="link sublink"> ©Guarda Wallet 2017</div>
+            </div>
+            <div style="padding-left: 5px">
+                <a class="link sublink" href="mailto:hello@guarda.com">hello@guarda.com</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+
+</html>
