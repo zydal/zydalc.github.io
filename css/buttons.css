@@ -149,3 +149,12 @@
     width: 200px;
     cursor: pointer;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button a:hover {
+    color: #a473bb;
+}
